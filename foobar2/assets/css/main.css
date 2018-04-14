@@ -113,7 +113,8 @@ dfn {
  */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;}
+  margin: 0.67em 0;
+  }
 
 /**
  * Address styling not present in IE 8/9.
@@ -354,12 +355,14 @@ td,
 th {
   padding: 0; }
 
+
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon.eot?uh228n");
   src: url("../fonts/icomoon.eot?#iefixuh228n") format("embedded-opentype"), url("../fonts/icomoon.ttf?uh228n") format("truetype"), url("../fonts/icomoon.woff?uh228n") format("woff"), url("../fonts/icomoon.svg?uh228n#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
+
 
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'icomoon';
@@ -525,9 +528,10 @@ h1, h2, h3, h4, h5, h6 {
 .small, small {
   font-size: 10px;
   line-height: 1.2; }
-
+/*color de letra de texto*/
 p {
-  margin: 0 0 20px 0; }
+  margin: 0 0 20px 0; 
+  color:blue;}
 
 em {
   font-style: italic; }
@@ -584,7 +588,7 @@ body {
 
 /* centramos la breve descipcion y lo que contiene*/
 h2 {
-  color: #303e49;
+  color: blue;
   text-align: center;
   padding: 50px 0 30px; }
 
@@ -597,15 +601,18 @@ h2 {
 h2, header nav a, header .kicker, footer .lockup a, #h_small #nav_small a, #h_small .kicker {
   font-size: 14px;
   font-weight: 700;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color:black; 
+  }
 
+/*
 @media only screen and (min-width: 1070px) {
   .logo {
     height: 70px;
     width: 70px;
-/*
+
     background: url(../img/GOC1.png) center center;
-*/
+
     background-size: 70px 47px;
     background-repeat: no-repeat;
     position: fixed;
@@ -628,7 +635,7 @@ h2, header nav a, header .kicker, footer .lockup a, #h_small #nav_small a, #h_sm
     background-size: 15px;
     background-color: #303e49;
     border-radius: 30px; } }
-
+*/
 /*Ponemos la imagen de portada para el portfolio digital*/
 header {
   background: url(../img/kk2.jpg) center center;
@@ -647,7 +654,8 @@ header {
     margin: 30px 30px 30px; }
     header nav a {
       margin-left: 20px;
-      color: rgba(0, 0, 0, 0.5); }
+/*cambiomos color de contacto */
+      color: silver; }
       @media only screen and (min-width: 220px) {
         header nav a {
           display: none; } }
@@ -658,7 +666,8 @@ header {
         color: black; }
   header h1 {
     text-align: center;
-    color: rgba(0, 0, 0, 0.5);
+/*cambiomos color de titulo*/
+    color: silver;
     text-transform: uppercase;
     letter-spacing: 0.05cm;
     margin-bottom: 20px;
@@ -694,11 +703,11 @@ header {
   header .kicker {
     text-align: center;
     line-height: 1;
-    color: rgba(0, 0, 0, 0.5); }
+    color: silver; }
 
 /*Color de la parte de abajo*/
 footer {
-  background: url(../img/galway3.jpg) center center;
+  background: url(../img/kk2.jpg) center center;
   background-size: cover; }
   footer .lockup {
     padding: 50px 30px; }
@@ -710,14 +719,23 @@ footer {
       margin: 0;
       text-transform: uppercase;
       font-size: 12px;
+/*
       color: rgba(0, 0, 0, 0.4); }
+*/
+      color:red;}
     footer .lockup a {
+/*
       color: rgba(0, 0, 0, 0.6);
+*/ 
+/*cambiamos color de contacto de silver*/
+      color:silver;
       display: inline-block;
       margin-right: 30px; }
       footer .lockup a:hover {
         color: black; }
 
+
+/*imagen de perfil de un gato*/
 @media only screen and (min-width: 220px) {
   .about-lock {
     margin: auto; }
@@ -903,7 +921,8 @@ footer {
     display: block;
     font-size: 60px;
     line-height: 70px;
-    color: #303e49;
+/*cambiamo color de logos de contactos youtube,facebook y twiter*/
+    color: white;
     -webkit-transition: all 0.15s ease-out 0s;
     transition: all 0.15s ease-out 0s;
     margin-left: 0; }
@@ -920,7 +939,8 @@ footer {
   width: 250px;
   height: 0px;
   margin: 20px auto 20px;
-  border-top: 4px solid #303e49; }
+  border-top: 4px solid #303e49; 
+  color:blue;}
 
 /* la parte de mas blog
 .blog-end {
@@ -952,6 +972,7 @@ footer {
 .cd-width {
   background: #e5eaee; }
 
+/*color de letras del portfolio*/
 .cd-container {
   background: #e5eaee;
   width: 90%;
@@ -1341,7 +1362,7 @@ form {
 
 #h_small {
   height: 170px;
-  background: url(../img/galway2.jpg) center center;
+  background: url(../img/kk2.jpg) center center;
   background-size: cover; }
   #h_small #nav_small {
     float: right;
@@ -1349,14 +1370,14 @@ form {
     #h_small #nav_small a {
       display: inline-block;
       margin-left: 10px;
-      color: rgba(0, 0, 0, 0.5); }
+      color: silver; }
       #h_small #nav_small a:hover {
         color: black; }
   #h_small #h1_small {
     display: inline-block;
     font-size: 72px;
     font-weight: 700;
-    color: rgba(0, 0, 0, 0.5);
+    color: silver;
     text-transform: uppercase;
     letter-spacing: 0.05cm; }
     #h_small #h1_small span {
